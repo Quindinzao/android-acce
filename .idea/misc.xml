@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/drawable/circle_button.xml" value="0.1785" />
+        <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1785" />
         <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/drawable/primary_filled_button.xml" value="0.1785" />
         <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/drawable/primary_outlined_button.xml" value="0.1785" />
-        <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/layout/activity_email_validation.xml" value="0.1796875" />
+        <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/layout/activity_splash_screen.xml" value="0.1796875" />
         <entry key="..\:/Users/devja/AndroidStudioProjects/Acce/app/src/main/res/layout/primary_filled_button.xml" value="0.1796875" />
       </map>
