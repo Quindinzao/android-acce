@@ -16,6 +16,7 @@
         android:textColor="@color/brown_050"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:fontFamily="@font/lexend_tera_regular"
         app:layout_constraintBottom_toTopOf="@+id/buttonSignIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -32,6 +33,7 @@
         android:textColor="@color/brown_900"
         android:textSize="20sp"
         android:textAllCaps="false"
+        android:fontFamily="@font/mulish_bold"
         android:background="@drawable/primary_filled_button"
         app:layout_constraintBottom_toTopOf="@+id/buttonFirstAccess"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,6 +50,7 @@
         android:textColor="@color/brown_050"
         android:textSize="20sp"
         android:textAllCaps="false"
+        android:fontFamily="@font/mulish_bold"
         android:background="@drawable/primary_outlined_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +70,16 @@
         android:textColor="@color/brown_050"
         android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/buttonFacebook"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess" />
+
+    <ImageView
+        android:id="@+id/imageGoogle"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonGoogle"
+        app:layout_constraintEnd_toEndOf="@+id/buttonGoogle"
+        app:layout_constraintStart_toStartOf="@+id/buttonGoogle"
+        app:layout_constraintTop_toTopOf="@+id/buttonGoogle"
         app:srcCompat="@drawable/google" />
 
     <androidx.appcompat.widget.AppCompatImageButton
@@ -83,7 +95,16 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess" />
+
+    <ImageView
+        android:id="@+id/imageFacebook"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonFacebook"
+        app:layout_constraintEnd_toEndOf="@+id/buttonFacebook"
+        app:layout_constraintStart_toStartOf="@+id/buttonFacebook"
+        app:layout_constraintTop_toTopOf="@+id/buttonFacebook"
         app:srcCompat="@drawable/facebook" />
 
     <androidx.appcompat.widget.AppCompatImageButton
@@ -99,7 +120,16 @@
         android:textColor="@color/brown_050"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/buttonFacebook"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess" />
+
+    <ImageView
+        android:id="@+id/imageUber"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonUber"
+        app:layout_constraintEnd_toEndOf="@+id/buttonUber"
+        app:layout_constraintStart_toStartOf="@+id/buttonUber"
+        app:layout_constraintTop_toTopOf="@+id/buttonUber"
         app:srcCompat="@drawable/uber" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
