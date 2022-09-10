@@ -2,4 +2,9 @@
     <string name="app_name">ACCE</string>
     <string name="sign_in">Sign In</string>
     <string name="first_access">First access</string>
+    <string name="acce_email">ACCE | E-MAIL</string>
+    <string name="email">E-mail</string>
+    <string name="continue_string">Continue</string>
+    <string name="acce_password">ACCE | PASSWORD</string>
+    <string name="password">Password</string>
 </resources>

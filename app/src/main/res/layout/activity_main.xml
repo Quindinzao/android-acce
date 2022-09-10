@@ -34,13 +34,14 @@
         android:textSize="20sp"
         android:textAllCaps="false"
         android:fontFamily="@font/mulish_bold"
-        android:background="@drawable/primary_filled_button"
-        app:layout_constraintBottom_toTopOf="@+id/buttonFirstAccess"
+        android:background="@drawable/primary_filled_content"
+        android:backgroundTint="@color/brown_050"
+        app:layout_constraintBottom_toTopOf="@+id/signInButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/buttonFirstAccess"
+        android:id="@+id/signInButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="18dp"
@@ -51,7 +52,7 @@
         android:textSize="20sp"
         android:textAllCaps="false"
         android:fontFamily="@font/mulish_bold"
-        android:background="@drawable/primary_outlined_button"
+        android:background="@drawable/primary_outlined_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,14 +64,15 @@
         android:layout_height="48dp"
         android:layout_marginTop="18dp"
         android:layout_marginHorizontal="18dp"
-        android:background="@drawable/primary_filled_button"
+        android:background="@drawable/primary_filled_content"
+        android:backgroundTint="@color/brown_050"
         android:contentDescription="@android:string/ok"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="@color/brown_050"
         android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/buttonFacebook"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess" />
+        app:layout_constraintTop_toBottomOf="@+id/signInButton" />
 
     <ImageView
         android:id="@+id/imageGoogle"
@@ -87,7 +89,8 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginTop="18dp"
-        android:background="@drawable/primary_filled_button"
+        android:background="@drawable/primary_filled_content"
+        android:backgroundTint="@color/brown_050"
         android:contentDescription="@android:string/ok"
         android:textAlignment="textStart"
         android:textAllCaps="false"
@@ -95,7 +98,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess" />
+        app:layout_constraintTop_toBottomOf="@+id/signInButton" />
 
     <ImageView
         android:id="@+id/imageFacebook"
@@ -113,14 +116,15 @@
         android:layout_height="48dp"
         android:layout_marginTop="18dp"
         android:layout_marginHorizontal="18dp"
-        android:background="@drawable/primary_filled_button"
+        android:background="@drawable/primary_filled_content"
+        android:backgroundTint="@color/brown_050"
         android:contentDescription="@android:string/ok"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="@color/brown_050"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/buttonFacebook"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFirstAccess" />
+        app:layout_constraintTop_toBottomOf="@+id/signInButton" />
 
     <ImageView
         android:id="@+id/imageUber"
